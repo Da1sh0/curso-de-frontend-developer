@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+    background-color: rgb(10, 10, 10);
+}
+img {
+    width: 100px;
+}
+#container {
+    border-radius: 3rem;
+    width: 40rem;
+    height: 56rem;
+    margin: 5rem auto;
+    background-color: rgb(21, 21, 24);
+    color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+#container img:nth-child(1) {
+    width: 100%;
+    height: 320px;
+}
+#container img:nth-child(2) {
+    position: relative;
+    top: -80px;
+    border-radius: 50%;
+    padding: 0;
+    border: 5px solid rgb(21, 21, 24);
+    width: 200px;
+    height: 200px;
+}
+#container .name {
+    margin-top: -85px;
+    font-size: 45px;
+    font-weight: bold;
+}
+#container .rol {
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+a{
+    color: white;
+}
+
+#country {
+    margin-top: 5rem;
+    padding: 32px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    font-weight: normal;
+}
+#country div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+}
+#container button {
+    width: 500px;
+    height: 100px;
+    background-color: rgb(0, 2, 24);
+    font-size: 30px;
+    font-weight: 800;
+    color: #fff;
+    border: 0;
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<lnk>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></lnk>
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Developer</title>
+</head>
+<body>
+    <nav></nav>
+    <div id="container">
+        <div class="header">
+            <h1>Clase de Frontend developer de platzi</h1>
+        </div>
+        <div>
+            <p>Etiquetas de html más usadas:</p>
+            <ul>
+                <li>Layout</li>
+                <ol>-header</ol>
+                <ol>-nav</ol>
+                <ol>-setion</ol>
+                <ol>-article</ol>
+                <ol>-aside</ol>
+                <ol>-footer</ol>
+                <li>Enlaces</li>
+                <ol>-a</ol>
+                <li>Textos</li>
+                <ol>-h1 ... h6</ol>
+                <ol>-p</ol>
+                <ol>-span</ol>
+                <li>Imagenes y videos</li>
+                <ol>-img</ol>
+                <ol>-svg</ol>
+                <ol>-iframe</ol>
+                <ol>-video</ol>
+                <li>Formularios</li>
+                <ol>-form</ol>
+                <ol>-input</ol>
+                <ol>-label</ol>
+                <ol>-buttom</ol>
+                <li>Listas</li>
+                <ol>-ul</ol>
+                <ol>-li</ol>
+                <ol>-ol</ol>
+            </ul>
+            <button><a href="https://htmlreference.io/">Todas las etiquetas de HTML y como se usa</a></button>
+        </div>
+        <div>
+            <p>Tipos de conectores css:</p>
+            <ul>
+                <li>Selectores por clase</li>
+                <ol>-<strong>Tipo =</strong> Se pone la equita a lo culle querramos poner un estilo. </ol>
+                <ol>-<strong>Clase =</strong> Se pone <strong>class="example"</strong> dentro de la etiqueta para defnir una clase y luego en css llamaremos esa clase con el comando: <strong>.example</strong></ol>
+                <ol>-<strong>Id =</strong> Se pone <strong>id="example"</strong> dentro de la etiqueta para ponerle una id con lo cual en el css lo llamaremos con e comando: <strong>#example</strong></ol>
+                <ol>-<strong>Universal =</strong> Se pone <strong>*</strong> y con eso le apliaremos un estilo a todo.</ol>
+            </ul>
+            <ul>
+                <li>Selctores Cominados</li>
+                <ol>-Decendientes = <strong>div p</strong></ol>
+                <ol>-Hijo directo = <strong>div > p</strong></ol>
+                <ol>-Elemento adycente = <strong>div + p</strong></ol>
+                <ol>-General de hemanos = <strong>div ~ p</strong></ol>
+            </ul>
+            <button><a href="https://htmlcolorcodes.com/es/">Colores en formato hexadecimal</a></button>
+        </div>
+        <div>
+            <p>Cascada y especificidad en CSS:</p>
+            <ul>
+            <li>Cascada:</li>
+            <ol>-Cuado se ponen un tema dos veces con caracteristicas diferentes por ejemlos:</ol>
+            <ol><img src="img/red.png"> </br> <img src="img/cyan.png"></ol>
+            <ol>-El valor que se ve a aplicar, va hacer el ultimo que se a registrado, en este caso el texto se vera de color cyan. </ol>
+            </ul>
+            <ul>
+            <li>Especificidad</li>
+            <ol>CSS sigue unas reglas espcificas en el orden de propiedades las cuales son estas:</ol>
+            <ol>-La primera propiedad es <strong>!important</strong>, css lo sigue ya que s el que tiene mas especificidad.</ol>
+            <ol>-La segunda propiedad es <strong>Las Etiquetas</strong>, tales como <strong>head, body, p, strong entre muchas otras</strong>.</ol>
+            <ol>-La tecera propiedad es <strong>Las ID</strong> las cuales se ponen con el comando id="example".</ol>
+            <ol>-La cuarta propiedad es <strong>Las Clases</strong> los cuales se ponen con el comando class="example."</ol>
+            <ol>-La quienta propiedad es <strong>Los elementos</strong>.</ol>
+            <ol>-La ultima es <strong>los selectores universales</strong>.</ol>
+            </ul>
+        </div>
+        <div>
+            <p>Tiposde Display</p>
+            <li>Block</li>
+            <div id="block">HOLA MUNDO</div>
+            <li>Inline</li>
+            <a href="/" id="inline">inlie</a>
+            <li>Inline Block</li>
+            <button id="button">Inline Block</button>
+            <li>Flex</li>
+            <div class="flex">
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+            </div>
+            <ol><strong>Codigo:</strong></ol>
+            <img src="/img/flex.png">
+            <li>Grid</li>
+            <div class="grid">
+                <div class="item2"></div>
+                <div class="item2"></div>
+                <div class="item2"></div>
+                <div class="item2"></div>
+                <div class="item2"></div>
+                <div class="item2"></div>
+                <div class="item2"></div>
+                <div class="item2"></div>
+                <div class="item2"></div>
+                <div class="item2"></div>
+                <div class="item2"></div>
+                <div class="item2"></div>
+                <div class="item2"></div>
+                <div class="item2"></div>
+                <div class="item2"></div>
+                <div class="item2"></div>
+                <div class="item2"></div>
+                <div class="item2"></div>
+                <div class="item2"></div>
+            </div>
+        </div>
+        <ul><strong>Codigo:</strong></ul>
+        <img src="/img/grid.png">
+        <div>
+            <p>Modelo de caja</p>
+
+            <section class="flex2">
+                <div id="modelbox">Hola</div>
+                <div id="modelbox">Mundo</div>
+            </section>
+            <section class="grid2">
+                <div class="modelbox1">Hola</div>
+                <div class="modelbox1">Mundo</div>
+            </section>
+        </div>
+        <div>
+            <p>Z-index y el contexto de apilamiento</p>
+            <div>
+                <li>Z-index </li>
+                <img src="/img/Z-index.png">
+                <ol><strong>Codigo:</strong></ol>
+                <img src="/img/Z-index-code.png"> </br>
+                <img src="/img/Z-index-code-html.png">
+                <!--
+                    <div class="one">Hola</div>
+                    <div class="two">Mundo</div>
+                    <div class="yellow">.</div>
+                    <div class="blue">.</div>
+                    <div class="red">.</div>
+                -->
+            </div>
+        </div>
+        <div>
+            <p>Propiedades de CSS más usadas:</p>
+            <ul>
+                <li>Layout</li>
+                <ol>-display</ol>
+                <li>Modelo de caja</li>
+                <ol>-margin</ol>
+                <ol>-padding</ol>
+                <ol>-border</ol>
+                <li>Textos</li>
+                <ol>-font-size</ol>
+                <ol>-font-weight</ol>
+                <ol>-font-family</ol>
+                <ol>-color</ol>
+                <li>Colores de fondo</li>
+                <ol>-background</ol>
+                <ol>-background-color</ol>
+                <li>Tamaños</li>
+                <ol>-width</ol>
+                <ol>-height</ol>
+            </ul>
+            <button><a href="https://cssreference.io/">Todas las propiedades de CSS y como se usa</a></button>
+        </div>
+        <div>
+            <p>Unidades de medida</p>
+            <li>Rem</li>
+            <ol>-La unidad de media la cual equivale a <strong>16px</strong> entonces para poder poner <strong>1rem</strong> y que sea equivalente a <strong>10px</strong> se pone la siguiente referencia en la propiedad <strong>html</strong> de <strong>CSS</strong>.</ol>
+            <img src="/img/1rem=10px.png">
+        </div>
+        <div>
+            <p>Diseño responsivo</p>
+            <li>@media</li>
+            <ol>-Esta propiedad se usa para cambiar las propiedades segun los parametros de las pantallas.</ol>
+            <img src="/img/@media-code.png">
+            <ol>-En el codigo dice que cuando la pantalla sea menor de <strong>1367px</strong> se mostrara los estilos que se pusieron en <strong>CSS</strong>.</ol>
+            <img id="hp" src="/img/-13667.png">
+            <ol>-Pero si las medidas de la pantalla supera los <strong>1367px</strong> se mostrara con los estilos puestos en @media</ol>
+            <img id="hp" src="/img/+1367.png">
+        </div>
+        <div>
+            <p>Diploma</p>
+            <img id="hp" src="/img/diploma.png">
+        </div>
+        <p id="watermark"><a href="https://github.com/Da1sh0">Diego Camino</a></p>
+    </div>
+</body>
+</html
